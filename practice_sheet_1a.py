@@ -69,7 +69,6 @@ print(",".join(sorted(input("Enter a comma separated string : ").split(","))))
 # Question 10
 ############
 
-d = {'Student': ['Rahul', 'Kishore', 'Vidhya',
-                 'Raakhi'], 'Marks': [57, 87, 67, 79]}
+d = {'Student': ['Rahul', 'Kishore', 'Vidhya', 'Raakhi'], 'Marks': [57, 87, 67, 79]}
 
 print(d['Student'][d['Marks'].index(max(d['Marks']))])
